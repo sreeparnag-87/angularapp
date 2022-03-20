@@ -1,0 +1,151 @@
+body {
+    background-blend-mode: multiply;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      293.46deg,
+      #d4f1f4 101.33%,
+      rgba(24, 154, 180, 0) 101.34%
+    );
+  }
+  #circle1 {
+    position: absolute;
+    width: 55%;
+    height: 115%;
+    left: -10%;
+    top: -35%;
+    border-radius: 50%;
+    background: linear-gradient(
+      208.56deg,
+      rgba(4, 88, 124, 0.79) 25.94%,
+      rgba(4, 98, 138, 0.419) 45.66%,
+      rgba(4, 92, 128, 0.173) 62.45%,
+      rgba(4, 74, 104, 0.115) 73.78%,
+      rgba(4, 57, 80, 0) 89.31%
+    );
+  }
+  #circle2 {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 43%;
+    top: -30%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #189ab4 0%, rgba(24, 154, 180, 0) 100%);
+  }
+  #circle3 {
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    left: -10%;
+    top: 50%;
+    border-radius: 50%;
+    background: linear-gradient(
+      223.22deg,
+      rgba(212, 241, 244, 0.5) 39.5%,
+      rgba(212, 241, 244, 0.180837) 66.96%,
+      rgba(212, 241, 244, 0) 83.51%
+    );
+  }
+
+  #addName,#addAddress,#addImageUrl,#addNumber,#addMailId
+{
+    border-radius: 20px;
+    height: 47px;
+    width: 399px;
+    text-align: center;
+    background-color: #ccf2ff;
+    font-weight: bold;
+    border:none;
+    font-size: medium
+}
+
+#addCenterDescription
+{
+    height: 94px;
+    background-color: #ccf2ff;
+    border-radius: 20px;
+    width: 399px;
+    font-size: 12px;
+    font-weight: bold;
+    border:none;
+    font-size: medium;
+    text-align: center;
+}
+
+.btnn
+{
+    background-color: #ccf2ff;
+    border-radius: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-right: 0%;
+    height: 27px;
+    width: 117px;
+    border:none;
+    font-weight: bolder;
+    color: gray;
+}
+
+.rightside
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.rightbox
+{
+ 
+ position:relative;
+}
+.first
+{
+    background: linear-gradient(
+        180deg,
+        #05445e 0%,
+        rgba(5, 68, 94, 0.781907) 45.47%,
+        rgba(5, 68, 94, 0.50851) 83.97%,
+        rgba(5, 68, 94, 0) 100%
+      );
+     
+      padding: 2rem;
+      border-radius: 20px;
+      margin: 2rem auto;
+      margin-top: 5%;
+      backdrop-filter: blur(4px);
+      margin-left: 32.5%;
+      margin-right: 33.5%;
+}
+
+.side
+{
+font-style: normal;
+text-align: center;
+}
+
+.btnn
+{
+    background-color: #ccf2ff;
+    border-radius: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-left: 35%;
+    height: 27px;
+    width: 117px;
+    border:none;
+    font-weight: bolder;
+    color: gray;
+}
+
+
+
+
+.middle{
+  text-align:center;
+ padding-bottom: 1px;
+}

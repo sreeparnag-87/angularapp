@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "addcenter": [
+    {
+      "id": 2,
+      "name": "sre",
+      "gmail": "sree@gmail.com",
+      "place": "nbp"
+    },
+    {
+      "name": "mauparna",
+      "email": "mau@gmail.com",
+      "place": "new barrackpore",
+      "id": 3
+    },
+    {
+      "name": "sreeparna",
+      "email": "sree@gmail.com",
+      "address": "nbp",
+      "phno": 1234567898,
+      "url": "wer",
+      "descripsion": "good",
+      "id": 4
+    }
+  ]
+}

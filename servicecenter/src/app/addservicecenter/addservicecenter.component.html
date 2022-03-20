@@ -1,0 +1,36 @@
+
+    <div class="rightbox">
+
+      <form [formGroup]="addcenter" (ngSubmit)="Adminsubmit()">
+        <div class="first">
+        <h1 class="side"> Add Center </h1>
+       
+        <input type ="text" placeholder="Enter the Name" class="form-control" id="addName"  formControlName="name"><br>
+        <div class="middle" *ngIf ="addcenter.controls['name'].invalid && (addcenter.controls['name'].dirty|| addcenter.controls['name'].touched)" style="color:black">
+            Please Enter valid Input
+        </div>
+       
+        <input type ="number"   placeholder="Enter the phone number"  [pattern]="mobileNumberPattern" id="addNumber" formControlName="phonenumber"><br><br>
+        <div class="middle" *ngIf ="addcenter.controls['phonenumber'].invalid && (addcenter.controls['phonenumber'].dirty|| addcenter.controls['phonenumber'].touched)" style="color:black">
+            Please Enter valid Input
+        </div>
+        <input type ="text" placeholder="Enter the Address" id="addAddress" formControlName="address"><br><br>
+        <div class="middle" *ngIf ="addcenter.controls['address'].invalid && (addcenter.controls['address'].dirty|| addcenter.controls['address'].touched)" style="color:black">
+            Please Enter valid Input</div>
+        <input type ="text" placeholder="Enter the Image Url" id="addImageUrl" formControlName="imageurl"><br><br>
+        <div class="middle" *ngIf ="addcenter.controls['imageurl'].invalid && (addcenter.controls['imageurl'].dirty|| addcenter.controls['imageurl'].touched)" style="color:black" text-align="center">
+            Please Enter valid Input
+        </div>
+        <input type ="email" placeholder="Enter the email id" id="addMailId"  formControlName="mailid"><br><br>
+        <div class="middle" *ngIf ="addcenter.controls['mailid'].invalid && (addcenter.controls['mailid'].dirty|| addcenter.controls['mailid'].touched)" style="color:black">
+            Please Enter valid Input
+        </div>
+        <input type ="text" placeholder="Enter the Descripsion" id="addCenterDescription" formControlName="description"><br><br>
+        <div class="middle" *ngIf ="addcenter.controls['description'].invalid && (addcenter.controls['description'].dirty|| addcenter.controls['description'].touched)" style="color:black">
+            Please Enter valid Input
+           </div>
+        <button [disabled]="addcenter.invalid" type="submit"  class="btnn" (click)="opensweetalert()">Add</button>
+        </div>
+        </form>
+    </div>
+   

@@ -1,0 +1,30 @@
+.header
+ {
+    height: 60px;
+    width: 100%;
+    background-color: #05445E;
+    margin-top:0px;
+    margin-left: 0px;
+}
+#adminAddCenter,#adminCenterprofile,.logout
+{
+        color:white;
+        text-decoration: none;
+        margin-top:21px;
+}
+#adminAddCenter
+{
+    margin-left: 270px;
+    font-size:28px;
+}   
+#adminCenterprofile
+{
+    margin-left: 450px;
+    font-size:28px;
+}
+.logout
+{
+  font-size: 27px;
+  margin-left: 168px;
+
+}
